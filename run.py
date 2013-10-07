@@ -26,4 +26,4 @@ if __name__ == '__main__':
     try:
         main(args.file)
     except KeyboardInterrupt:
-        print '%sBye!\n' % ('\b\b' * 2)
+        print '%sBye!\n' % ('\b' * 2)
